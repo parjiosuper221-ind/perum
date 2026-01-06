@@ -1,11 +1,198 @@
-@import 'tailwindcss';
-
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+body {
+    margin: 0;
+    font-family: Arial
 }
+
+/* .navbar {
+   
+    position: absolute;
+    width: 1376px;
+    height: 93px;
+    left: 32px;
+    top: 57px;
+    background: #7CCE17;
+    opacity: 0.82;
+    border-radius: 27px;
+} */
+
+/* .nav-menu a {
+   
+    position: absolute;
+    width: 584px;
+    height: 30px;
+    left: calc(50% - 584px/2);
+    top: 89px; */
+
+    /* Tentang kami */
+    /* position: absolute;
+    width: 138px;
+    height: 30px;
+    left: 428px;
+    top: 89px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; */
+
+    /* identical to box height */
+    /* color: #FFFFFF; */
+
+    /* Produk */
+    /* position: absolute;
+    width: 69px;
+    height: 30px;
+    left: 605px;
+    top: 89px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; */
+
+    /* identical to box height */
+    /* color: #FFFFFF; */
+
+    /* Promo */
+    /* position: absolute;
+    width: 66px;
+    height: 30px;
+    left: 713px;
+    top: 89px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; */
+
+    /* identical to box height */
+    /* color: #FFFFFF; */
+
+    /* News */
+    /* position: absolute;
+    width: 54px;
+    height: 30px;
+    left: 818px;
+    top: 89px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; */
+
+    /* identical to box height */
+    /* color: #FFFFFF; */
+
+    /* Virtual Tur */
+    /* position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 911px;
+    top: 89px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    /* color: #FFFFFF;
+} */ 
+
+/* .btn-login { */
+    /* Group 27 */
+    /* position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 1239px;
+    top: 83px; */
+
+    /* Rectangle 4 */
+    /* position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 1239px;
+    top: 83px;
+    background: #FFFFFF;
+    border-radius: 15px; */
+
+    /* Sign-in */
+    /* position: absolute;
+    width: 77px;
+    height: 30px;
+    left: 1253px;
+    top: 89px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px; */
+
+    /* identical to box height */
+    /* color: #E6C16B;
+} */
+
+/* .hero {
+    background: #444;
+    color: white;
+    padding: 120px 80px
+}
+
+.hero span {
+    color: #FFD700
+}
+
+.featured {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    margin: 40px;
+    border-radius: 15px;
+    padding: 30px
+} */
+
+
+    .navbar-custom {
+        background: rgba(255, 255, 255, 0.85); /* Putih transparan */
+        backdrop-filter: blur(10px); /* Efek blur kaca */
+        border-radius: 0 0 30px 30px; /* Lengkungan di bawah sesuai gambar */
+        padding: 15px 50px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        margin: 0 20px; /* Memberi jarak dari tepi layar */
+    }
+
+    .nav-link-custom {
+        color: #333 !important;
+        font-weight: 500;
+        margin: 0 15px;
+        transition: 0.3s;
+    }
+
+    .nav-link-custom:hover {
+        color: #7cb524 !important; /* Hijau sesuai tema POK */
+    }
+
+    .btn-signin-custom {
+        background-color: #fff;
+        color: #7cb524;
+        border: 2px solid #7cb524;
+        border-radius: 25px; /* Pill shaped */
+        padding: 8px 30px;
+        font-weight: bold;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+
+    .btn-signin-custom:hover {
+        background-color: #7cb524;
+        color: #fff;
+    }
+
+    .logo-text {
+        font-weight: bold;
+        font-size: 24px;
+        color: #7cb524;
+    }
+    
+    .logo-text span {
+        color: #f39c12; /* Warna kuning POK */
+    }
