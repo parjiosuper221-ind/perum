@@ -6,7 +6,11 @@
             fasilitas lengkap. Dirancang modern dan nyaman, perumahan ini menawarkan lingkungan
             asri, aman, serta akses strategis untuk mendukung kualitas hidup yang lebih baik.
         </p>
+<<<<<<< HEAD
         <a href="{{ url('/#footer')}}" class="btn">Selengkapnya</a>
+=======
+        <a href="#" class="btn">Selengkapnya</a>
+>>>>>>> 0d18ee21c3495b6ea28ae9eff7b6602daf3d63d0
     </div>
 
     <div class="about-right">

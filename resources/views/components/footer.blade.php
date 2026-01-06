@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -105,3 +106,8 @@
         </div>
     </div>
 </footer>
+=======
+<footer style="text-align:center;padding:30px;background:#eee">
+    © 2025 PWP - POK
+</footer>
+>>>>>>> 0d18ee21c3495b6ea28ae9eff7b6602daf3d63d0

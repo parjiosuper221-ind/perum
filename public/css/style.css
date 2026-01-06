@@ -587,8 +587,11 @@ body {
     transform: translateY(-2px);
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0d18ee21c3495b6ea28ae9eff7b6602daf3d63d0
 @media (max-width: 768px) {
     .grid-rumah {
         grid-template-columns: 1fr;
