@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<title>PWP_POK</title>
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <meta charset="UTF-8">
+    <title>PWP | POK</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
 @include('components.navbar')

@@ -1,10 +1,7 @@
-<section class="categories">
-  <h2>Explore Our Properties</h2>
+<section id="produk" class="container my-5">
+    <h2 class="text-center mb-5 fw-bold">
+        Temukan <span class="text-success">Rumah Idamanmu</span>
+    </h2>
 
-  <div class="category-grid">
-    <div class="category-card">House</div>
-    <div class="category-card">Apartment</div>
-    <div class="category-card">Villa</div>
-    <div class="category-card">Studio</div>
-  </div>
+
 </section>
