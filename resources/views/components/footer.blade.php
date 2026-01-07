@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -68,7 +67,7 @@
     <div id="footer" class="container">
         <div class="row">
             <div class="col-md-5">
-                <h1 class="footer-title">PWP POK</h1>
+                <h1 class="footer-title">Pemrograman Web Praktik</h1>
                 <p class="footer-subtitle">
                     Hunian impian dengan konsep modern dan lingkungan yang asri untuk masa depan keluarga Anda.
                 </p>
@@ -101,13 +100,12 @@
 
         <div class="row">
             <div class="col-12 text-center copyright">
-                <p>&copy; 2024 PWP POK Perumahan. All Rights Reserved.</p>
+                <p>&copy; 2026 Pemrograman Web Praktik POK Perumahan. All Rights Reserved.</p>
             </div>
         </div>
     </div>
 </footer>
-=======
 <footer style="text-align:center;padding:30px;background:#eee">
-    © 2025 PWP - POK
+    © 2026 Pemrograman Web Praktik 
 </footer>
->>>>>>> 0d18ee21c3495b6ea28ae9eff7b6602daf3d63d0
+
